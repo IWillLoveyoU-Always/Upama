@@ -225,7 +225,7 @@ window.addEventListener("load", () => {
 
     const music = document.getElementById("bgMusic");
 
-    music.volume = 0.5;
+    music.volume = 1;
     music.loop = true;
 
     music.play().catch(() => {
